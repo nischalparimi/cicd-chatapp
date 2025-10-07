@@ -25,6 +25,3 @@ services:
       MYSQL_DATABASE: chatapp
     ports:
       - "3307:3306"
-
-      - name: Build Docker image
-        run: docker build -f path/to/your/Dockerfile .
